@@ -1,13 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "chrome-extension-starter",
-  "description": "yay",
+  "name": "rootion",
+  "description": "komiflo helper",
   "version": "0.1.0",
   "permissions": [
     "tabs",
     "storage",
-    "notifications",
-    "http://*/*",
+    "commands",
     "https://*/*"
   ],
   "content_scripts": [{
@@ -30,12 +29,20 @@
       "19": "build/images/icon19.png",
       "38": "build/images/icon38.png"
     },
-    "default_title": "go to random komiflo page"
+    "default_title": "go to a random komiflo page"
   },
-  "options_page": "build/views/options.html",
   "icons": {
-    "16": "build/images/icon19.png",
+    "16": "build/images/icon16.png",
     "48": "build/images/icon48.png",
     "128": "build/images/icon128.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+V",
+        "windows": "Ctrl+Shift+V",
+        "mac": "Command+Shift+V"
+      }
+    }
   }
 }

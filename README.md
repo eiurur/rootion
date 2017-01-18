@@ -1,11 +1,24 @@
 rootion
 =====
 
-komiflo-helper
+Chrome Extension to help the use of <a href="https://komiflo.com/" target="_blank">Komiflo</a>
 
 ## Features
 
+### open a random page
+
+click a chrome_extension icon on toolbar or press `Ctrl+Chift+V`
+
+![open_random_comic](https://github.com/eiurur/rootion/raw/master/demo/open_random_comic.gif)
+
+### Record the number of times
+
+WIP ...
+
+
 ## Installation
+
+<a href="https://chrome.google.com/webstore/detail/ofgfnmcpbapebapilnaingncapagapgp" target="_blank">rootion - Chrome ウェブストア</a>
 
 ## Dev
 
