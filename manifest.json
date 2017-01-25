@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "rootion",
   "description": "komiflo helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "permissions": [
     "tabs",
     "storage",
@@ -39,9 +39,9 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Ctrl+Shift+V",
-        "windows": "Ctrl+Shift+V",
-        "mac": "Command+Shift+V"
+        "default": "Ctrl+M",
+        "windows": "Ctrl+M",
+        "mac": "Command+M"
       }
     }
   }
