@@ -11,17 +11,23 @@ click a chrome_extension icon on toolbar or press `Ctrl+Shift+K`
 
 ![open_random_comic](https://github.com/eiurur/rootion/raw/master/demo/open_random_comic.gif)
 
-**Note**
+#### Note
 
 If the shortcut key does not work then 
 
-1. Go to <a href="chrome://extensions/" target="_blank">chrome://extensions/</a>
+(1) Go to <a href="chrome://extensions/" target="_blank">chrome://extensions/</a>
 
-2. Activate this Extension.
+(2) Activate this Extension.
 
-![1](https://github.com/eiurur/rootion/raw/master/demo/description/activate_1.png)
+Click `keyboard shorcut`.
 
-![2](https://github.com/eiurur/rootion/raw/master/demo/description/activate_2.png)
+<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_1.png" style="width:500px"/>
+
+<br>
+
+Set the keyboard shortcut.
+
+<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_2.png" style="height:500px"/>
 
 <br>
 
