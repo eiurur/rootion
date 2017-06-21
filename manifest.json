@@ -39,10 +39,10 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "windows": "Ctrl+Shift+S",
-        "mac": "Command+Shift+S",
-        "chromeos": "Ctrl+Shift+S",
-        "linux": "Ctrl+Shift+S"
+        "windows": "Ctrl+Shift+Comma",
+        "mac": "Command+Shift+Comma",
+        "chromeos": "Ctrl+Shift+Comma",
+        "linux": "Ctrl+Shift+Comma"
       }
     }
   }

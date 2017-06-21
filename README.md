@@ -7,7 +7,7 @@ Chrome Extension to help the use of <a href="https://komiflo.com/" target="_blan
 
 ### open a random page
 
-click a chrome_extension icon on toolbar or press `Ctrl+Shift+S`
+click a chrome_extension icon on toolbar or press `Ctrl+Shift+Comma`
 
 ![open_random_comic](https://github.com/eiurur/rootion/raw/master/demo/open_random_comic.gif)
 
