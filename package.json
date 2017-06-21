@@ -49,8 +49,8 @@
     "build": "gulp build && webpack --config webpack.production.config.js ",
     "zip": "gulp zip",
     "version:remain": "npm run build && gulp zip",
-    "version:major": "npm run build && npm run zip --version major",
-    "version:minor": "npm run build && npm run zip --version minor",
-    "version:patch": "npm run build && npm run zip --version patch"
+    "version:major": "npm run build && gulp zip --version major",
+    "version:minor": "npm run build && gulp zip --version minor",
+    "version:patch": "npm run build && gulp zip --version patch"
   }
 }
