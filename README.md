@@ -7,7 +7,7 @@ Chrome Extension to help the use of <a href="https://komiflo.com/" target="_blan
 
 ### open a random page
 
-click a chrome_extension icon on toolbar or press `Ctrl+M`
+click a chrome_extension icon on toolbar or press `Ctrl+Shift+S`
 
 ![open_random_comic](https://github.com/eiurur/rootion/raw/master/demo/open_random_comic.gif)
 
@@ -22,16 +22,9 @@ WIP ...
 
 ## Dev
 
-### Required
-
-`concurrently` and `webpack`
-
-    npm i concurrently -g
-    npm i webpack -g
-
 ### Launch
 
     git clone https://github.com/eiurur/rootion
     cd rootion
-    npm run setup
+    npm i && npm run build
     npm start

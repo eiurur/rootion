@@ -2,22 +2,24 @@
   "manifest_version": 2,
   "name": "rootion",
   "description": "komiflo helper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "permissions": [
     "tabs",
     "storage",
     "commands",
     "https://*/*"
   ],
-  "content_scripts": [{
-    "matches": [
-      "https://komiflo.com/comics/*"
-    ],
-    "js": [
-      "build/js/contents.bundle.js"
-    ],
-    "run_at": "document_end"
-  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://komiflo.com/comics/*"
+      ],
+      "js": [
+        "build/js/contents.bundle.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
   "background": {
     "persistent": false,
     "scripts": [
@@ -39,9 +41,10 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Ctrl+M",
-        "windows": "Ctrl+M",
-        "mac": "Command+M"
+        "windows": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S",
+        "chromeos": "Ctrl+Shift+S",
+        "linux": "Ctrl+Shift+S"
       }
     }
   }

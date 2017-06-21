@@ -1,12 +1,12 @@
-const RandomComic = require('./lib/RandomComic');
+import RandomComic from "./lib/RandomComic";
 
 const openCurrentTab = () => {
-  chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
+  chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
     let tab = tabs[0];
     new RandomComic(tab).open();
   });
-}
+};
 
-chrome.browserAction.onClicked.addListener( (tab) => openCurrentTab() )
+chrome.browserAction.onClicked.addListener(tab => openCurrentTab());
 
-chrome.commands.onCommand.addListener( (command) => openCurrentTab() )
+chrome.commands.onCommand.addListener(command => openCurrentTab());
