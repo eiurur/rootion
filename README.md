@@ -19,15 +19,15 @@ If the shortcut key does not work then
 
 (2) Activate this Extension.
 
-Click `keyboard shorcut`.
+Click `keyboard shortcut`.
 
-<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_1.png" style="width:500px"/>
+<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_1.png" style="width:400px"/>
 
 <br>
 
 Set the keyboard shortcut.
 
-<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_2.png" style="height:500px"/>
+<img  src="https://github.com/eiurur/rootion/raw/master/demo/description/activate_2.png" style="height:400px"/>
 
 <br>
 
